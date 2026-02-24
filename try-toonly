@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toonly - Free Trial</title>
+    <meta property="og:title" content="Toonly Free Trial">
+
+    <style>
+        /* Modern Minimalist Style */
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #ffffff; /* Clean White BG */
+            overflow: hidden;
+        }
+
+        /* Modern 3-Bar Loader */
+        .loader {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            width: 50px;
+            height: 40px;
+        }
+
+        .bar {
+            width: 5px;
+            height: 10px;
+            background-color: #0a3d24; /* Dark Green */
+            border-radius: 10px;
+            animation: grow 1s ease-in-out infinite;
+        }
+
+        .bar:nth-child(2) {
+            animation-delay: 0.15s;
+        }
+
+        .bar:nth-child(3) {
+            animation-delay: 0.3s;
+        }
+
+        @keyframes grow {
+            0%, 100% {
+                height: 10px;
+                opacity: 0.3;
+            }
+            50% {
+                height: 35px;
+                opacity: 1;
+            }
+        }
+
+        /* Container fade-in for smooth entry */
+        .loader-wrapper {
+            animation: fadeIn 0.4s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="loader-wrapper">
+        <div class="loader">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </div>
+    <img src="https://bit.ly/au-toonly" style="display:none;">
+    <script>
+        // Redirect logic
+        setTimeout(function() {
+            window.location.replace("https://www.toonly.com/toonly?aff=291f1439216feefcfc27405e2a5c5d6beb0287d26b99d71098eff9b3a2b2a52f");
+        }, 1000);
+    </script>
+    
+</body>
+</html>
