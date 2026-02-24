@@ -76,13 +76,13 @@
             <div class="bar"></div>
         </div>
     </div>
-
+    <img src="https://bit.ly/ksa-toonly" style="display:none;">
     <script>
         // Redirect logic
         setTimeout(function() {
             window.location.replace("https://www.toonly.com/toonly?aff=291f1439216feefcfc27405e2a5c5d6beb0287d26b99d71098eff9b3a2b2a52f");
         }, 1000);
     </script>
-
+    
 </body>
 </html>
